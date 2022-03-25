@@ -22,7 +22,9 @@ module.exports = function(RED) {
 		    // DSM User password (required) 
 		    passwd: this.credentials.passwd,
 		    // DSM API version (optional, default: 6.0.2) 
-		    apiVersion: this.config.apiVersion
+		    apiVersion: this.config.apiVersion,
+		    device_name: this.config.device_name,
+		    did: this.config.did
 		});
 
 
